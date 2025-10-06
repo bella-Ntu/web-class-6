@@ -1,8 +1,10 @@
 body {
     background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
+    width: 100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .sectionstyle {
@@ -13,4 +15,8 @@ body {
 
 button {
     background-color: aquamarine;
+}
+
+footer {
+    margin-top: auto;
 }
